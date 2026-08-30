@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-30T00:57:57-03:00",
+  "title": "Design System: Formação WebMCP",
+  "extensions": {
+    "colorMeta": {
+      "decision-amber": {
+        "role": "primary",
+        "displayName": "Âmbar de Decisão",
+        "canonical": "#facc15",
+        "tonalRamp": ["#332800", "#554300", "#7a6100", "#a58200", "#cda600", "#facc15", "#ffe370", "#fff7cc"]
+      },
+      "operational-cyan": {
+        "role": "secondary",
+        "displayName": "Ciano Operacional",
+        "canonical": "#38bdf8",
+        "tonalRamp": ["#052b3b", "#074962", "#09688b", "#0c89b5", "#18a8db", "#38bdf8", "#8cdcff", "#e0f7ff"]
+      },
+      "canvas-dark": {
+        "role": "neutral",
+        "displayName": "Canvas Noturno",
+        "canonical": "#111827",
+        "tonalRamp": ["#080b12", "#111827", "#1f2937", "#374151", "#64748b", "#94a3b8", "#cbd5e1", "#f8fafc"]
+      },
+      "surface-dark": {
+        "role": "neutral",
+        "displayName": "Superfície de Trabalho",
+        "canonical": "#1f2937",
+        "tonalRamp": ["#080b12", "#111827", "#1f2937", "#374151", "#64748b", "#94a3b8", "#cbd5e1", "#f8fafc"]
+      },
+      "surface-raised": {
+        "role": "neutral",
+        "displayName": "Superfície Elevada",
+        "canonical": "#374151",
+        "tonalRamp": ["#080b12", "#111827", "#1f2937", "#374151", "#64748b", "#94a3b8", "#cbd5e1", "#f8fafc"]
+      },
+      "border-strong": {
+        "role": "neutral",
+        "displayName": "Linha Estrutural Forte",
+        "canonical": "#4b5563",
+        "tonalRamp": ["#080b12", "#111827", "#1f2937", "#374151", "#4b5563", "#94a3b8", "#cbd5e1", "#f8fafc"]
+      },
+      "text-primary-dark": {
+        "role": "neutral",
+        "displayName": "Texto Claro",
+        "canonical": "#e6e6e6",
+        "tonalRamp": ["#191919", "#383838", "#5b5b5b", "#818181", "#a8a8a8", "#cfcfcf", "#e6e6e6", "#f7f7f7"]
+      },
+      "text-muted-dark": {
+        "role": "neutral",
+        "displayName": "Texto Atenuado",
+        "canonical": "#a8a8b3",
+        "tonalRamp": ["#19191d", "#38383f", "#595963", "#7f7f8a", "#a8a8b3", "#c9c9d0", "#e3e3e7", "#f6f6f8"]
+      },
+      "canvas-light": {
+        "role": "neutral",
+        "displayName": "Papel Claro",
+        "canonical": "#ffffff",
+        "tonalRamp": ["#17191c", "#34383e", "#565c65", "#7b838e", "#a3aab3", "#cbd0d6", "#e9ecef", "#ffffff"]
+      },
+      "surface-light": {
+        "role": "neutral",
+        "displayName": "Superfície Clara",
+        "canonical": "#f8fafc",
+        "tonalRamp": ["#15191d", "#303941", "#505e6a", "#738695", "#9aadb9", "#c3d1da", "#e2e9ee", "#f8fafc"]
+      },
+      "text-primary-light": {
+        "role": "neutral",
+        "displayName": "Texto Tinta",
+        "canonical": "#1a1a1a",
+        "tonalRamp": ["#111111", "#1a1a1a", "#393939", "#606060", "#888888", "#b0b0b0", "#d7d7d7", "#f5f5f5"]
+      },
+      "text-muted-light": {
+        "role": "neutral",
+        "displayName": "Texto Atenuado Claro",
+        "canonical": "#6e6e6e",
+        "tonalRamp": ["#191919", "#353535", "#525252", "#6e6e6e", "#929292", "#b7b7b7", "#dddddd", "#f7f7f7"]
+      },
+      "builder-emerald": {
+        "role": "tertiary",
+        "displayName": "Esmeralda Builder",
+        "canonical": "#34d399",
+        "tonalRamp": ["#052e22", "#07513b", "#087454", "#0b986e", "#13bc87", "#34d399", "#8ce7c3", "#def8ed"]
+      },
+      "integrator-blue": {
+        "role": "tertiary",
+        "displayName": "Azul Integrator",
+        "canonical": "#60a5fa",
+        "tonalRamp": ["#0b2445", "#123f74", "#1c5ca4", "#2b79d5", "#4693ef", "#60a5fa", "#a6ccff", "#e5f1ff"]
+      },
+      "agent-purple": {
+        "role": "tertiary",
+        "displayName": "Púrpura Agent",
+        "canonical": "#c084fc",
+        "tonalRamp": ["#2b1246", "#4b2075", "#6c2da5", "#8e42d0", "#aa61eb", "#c084fc", "#dbb8ff", "#f4e6ff"]
+      },
+      "expert-amber": {
+        "role": "tertiary",
+        "displayName": "Âmbar Expert",
+        "canonical": "#fbbf24",
+        "tonalRamp": ["#332400", "#584000", "#805d00", "#aa7c00", "#d39c08", "#fbbf24", "#ffdd83", "#fff4cf"]
+      },
+      "danger-red": {
+        "role": "tertiary",
+        "displayName": "Vermelho de Bloqueio",
+        "canonical": "#f87171",
+        "tonalRamp": ["#3d1111", "#681d1d", "#952b2b", "#c34242", "#e85c5c", "#f87171", "#ffb0b0", "#ffe5e5"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Pergunta ou promessa principal do primeiro viewport." },
+      "headline": { "displayName": "Headline", "purpose": "Entrada de grandes blocos de leitura e decisão." },
+      "title": { "displayName": "Title", "purpose": "Cartões, estados e agrupamentos operacionais." },
+      "body": { "displayName": "Body", "purpose": "Explicação contínua e conteúdo didático." },
+      "label": { "displayName": "Label", "purpose": "Ações, navegação, metadados e controles." }
+    },
+    "shadows": [
+      { "name": "popover-ambient", "value": "0 6px 24px hsl(220 40% 4% / 0.28)", "purpose": "Menus de seleção e controles flutuantes pequenos." },
+      { "name": "floating-panel", "value": "0 12px 40px hsl(220 40% 4% / 0.3)", "purpose": "Seletor de aparência e painéis acima do chrome." },
+      { "name": "journey-edge", "value": "-12px 0 40px hsl(220 40% 4% / 0.3)", "purpose": "Separação do drawer Minha jornada." },
+      { "name": "completion-toast", "value": "0 8px 30px hsl(220 40% 4% / 0.3)", "purpose": "Feedback transitório de conclusão." },
+      { "name": "operational-glow", "value": "0 0 18px rgba(56, 189, 248, 0.35)", "purpose": "Linha de varredura e sinais técnicos ativos." }
+    ],
+    "motion": [
+      { "name": "ease-standard", "value": "cubic-bezier(0.4, 0, 0.2, 1)", "purpose": "Mudanças de cor e estados de controles." },
+      { "name": "ease-reveal", "value": "cubic-bezier(0.22, 1, 0.36, 1)", "purpose": "Entrada de resultados e varredura operacional." },
+      { "name": "duration-fast", "value": "120ms", "purpose": "Popover e resposta imediata." },
+      { "name": "duration-standard", "value": "180ms", "purpose": "Tema, cor, borda e opacity." },
+      { "name": "duration-slow", "value": "320ms", "purpose": "Drawer, progresso e desenho do check." },
+      { "name": "scan-cycle", "value": "4500ms", "purpose": "Varredura contínua no preview técnico." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Decision Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "A ação decisiva da página; use uma por contexto imediato.",
+      "html": "<button class=\"ds-btn-primary\">Analisar meu site <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14m-5-5 5 5-5 5\"/></svg></button>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;padding:.875rem 1.5rem;border:0;border-radius:.75rem;background:var(--wm-amber,#facc15);color:#111827;font:700 .875rem/1.35 Inter,ui-sans-serif,system-ui,sans-serif;cursor:pointer;transition:background-color 180ms cubic-bezier(.4,0,.2,1),filter 180ms cubic-bezier(.4,0,.2,1)}.ds-btn-primary svg{width:1.25rem;height:1.25rem;fill:none;stroke:currentColor;stroke-width:2}.ds-btn-primary:hover{background:#fde047}.ds-btn-primary:focus-visible{outline:3px solid var(--wm-cyan,#38bdf8);outline-offset:2px}.ds-btn-primary:active{filter:brightness(.96)}"
+    },
+    {
+      "name": "Secondary Surface Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Ação secundária sóbria, construída com superfície e borda.",
+      "html": "<button class=\"ds-btn-secondary\">Explorar as quatro fases</button>",
+      "css": ".ds-btn-secondary{display:inline-flex;align-items:center;justify-content:center;padding:.875rem 1.5rem;border:1px solid var(--wm-line,#374151);border-radius:.75rem;background:var(--wm-panel,#1f2937);color:#e6e6e6;font:600 .875rem/1.35 Inter,ui-sans-serif,system-ui,sans-serif;cursor:pointer;transition:background-color 180ms cubic-bezier(.4,0,.2,1),border-color 180ms cubic-bezier(.4,0,.2,1)}.ds-btn-secondary:hover{background:#374151;border-color:#4b5563}.ds-btn-secondary:focus-visible{outline:3px solid var(--wm-cyan,#38bdf8);outline-offset:2px}.ds-btn-secondary:active{background:#2d3748}"
+    },
+    {
+      "name": "URL Field",
+      "kind": "input",
+      "refersTo": "input-url",
+      "description": "Campo operacional de alta largura para iniciar o diagnóstico.",
+      "html": "<label class=\"ds-field-label\" for=\"ds-url\">URL do site</label><input class=\"ds-input-url\" id=\"ds-url\" type=\"url\" placeholder=\"https://seu-site.com\">",
+      "css": ".ds-field-label{display:block;margin-bottom:.5rem;color:#e6e6e6;font:600 .875rem/1.35 Inter,ui-sans-serif,system-ui,sans-serif}.ds-input-url{width:100%;padding:.875rem 1rem;border:1px solid var(--wm-line,#374151);border-radius:.75rem;background:var(--wm-panel,#1f2937);color:#e6e6e6;font:400 1rem/1.5 Inter,ui-sans-serif,system-ui,sans-serif;transition:border-color 180ms cubic-bezier(.4,0,.2,1)}.ds-input-url::placeholder{color:#a8a8b3}.ds-input-url:hover{border-color:#4b5563}.ds-input-url:focus-visible{border-color:var(--wm-cyan,#38bdf8);outline:3px solid color-mix(in srgb,var(--wm-cyan,#38bdf8) 45%,transparent);outline-offset:2px}"
+    },
+    {
+      "name": "Phase Navigation",
+      "kind": "nav",
+      "description": "Navegação compacta com cada fase revelando sua cor semântica.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Fases\"><a class=\"ds-nav-link ds-nav-builder\" href=\"#\">Builder</a><a class=\"ds-nav-link ds-nav-integrator\" href=\"#\">Integrator</a><a class=\"ds-nav-link ds-nav-agent\" href=\"#\">Agent</a><a class=\"ds-nav-link ds-nav-expert\" href=\"#\">Expert</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:.25rem;padding:.5rem;border-bottom:1px solid var(--wm-line,#374151);background:rgba(17,24,39,.95);font-family:Inter,ui-sans-serif,system-ui,sans-serif}.ds-nav-link{padding:.5rem .75rem;border-radius:.5rem;color:#a8a8b3;text-decoration:none;font-size:.875rem;font-weight:600;transition:color 180ms cubic-bezier(.4,0,.2,1),background-color 180ms cubic-bezier(.4,0,.2,1)}.ds-nav-builder:hover{color:#34d399;background:rgba(52,211,153,.1)}.ds-nav-integrator:hover{color:#60a5fa;background:rgba(96,165,250,.1)}.ds-nav-agent:hover{color:#c084fc;background:rgba(192,132,252,.1)}.ds-nav-expert:hover{color:#fbbf24;background:rgba(251,191,36,.1)}.ds-nav-link:focus-visible{outline:3px solid var(--wm-cyan,#38bdf8);outline-offset:2px}.ds-nav-link:active{background:#374151}"
+    },
+    {
+      "name": "Technical Phase Card",
+      "kind": "card",
+      "refersTo": "card-technical",
+      "description": "Cartão plano que conecta fase, escopo e entrega executável.",
+      "html": "<article class=\"ds-phase-card\"><div class=\"ds-phase-head\"><h3>WebMCP Builder</h3><span>Módulos 1–4</span></div><p>Instrumente formulários e funções JavaScript sem quebrar a experiência humana.</p><strong>Entrega: site com ferramentas descobertas e executáveis.</strong></article>",
+      "css": ".ds-phase-card{max-width:34rem;padding:1.5rem;border:1px solid var(--wm-line,#374151);border-radius:.75rem;background:var(--wm-panel,#1f2937);color:#e6e6e6;font-family:Inter,ui-sans-serif,system-ui,sans-serif;transition:border-color 180ms cubic-bezier(.4,0,.2,1)}.ds-phase-card:hover{border-color:#4b5563}.ds-phase-card:focus-within{outline:3px solid var(--wm-cyan,#38bdf8);outline-offset:2px}.ds-phase-head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.75rem}.ds-phase-head h3{margin:0;font-size:1.5rem;line-height:1.25}.ds-phase-head span,.ds-phase-card strong{color:#34d399;font-size:.875rem}.ds-phase-card p{margin:.75rem 0 1.25rem;color:#a8a8b3;line-height:1.6}.ds-phase-card strong{display:block;font-weight:500}"
+    },
+    {
+      "name": "Readiness Report Panel",
+      "kind": "custom",
+      "refersTo": "panel-diagram",
+      "description": "Painel operacional que mantém o estado do diagnóstico visível.",
+      "html": "<section class=\"ds-report\"><header><span class=\"ds-report-dot\"></span><strong>Relatório de prontidão</strong><small>modo passivo</small></header><div class=\"ds-report-body\"><h3>O relatório aparecerá aqui.</h3><p>Ferramentas, bloqueadores, evidências e recomendações serão organizados neste painel.</p></div></section>",
+      "css": ".ds-report{min-height:20rem;overflow:hidden;border:1px solid var(--wm-line,#374151);border-radius:1rem;background:var(--wm-panel,#1f2937);color:#e6e6e6;font-family:Inter,ui-sans-serif,system-ui,sans-serif}.ds-report header{display:flex;align-items:center;gap:.5rem;padding:1rem 1.25rem;border-bottom:1px solid var(--wm-line,#374151)}.ds-report header small{margin-left:auto;color:#a8a8b3}.ds-report-dot{width:.5rem;height:.5rem;border-radius:9999px;background:var(--wm-cyan,#38bdf8)}.ds-report-body{padding:2rem}.ds-report-body h3{margin:0 0 .75rem;font-size:1.5rem}.ds-report-body p{max-width:32rem;margin:0;color:#a8a8b3;line-height:1.6}.ds-report:hover{border-color:#4b5563}.ds-report:focus-within{outline:3px solid var(--wm-cyan,#38bdf8);outline-offset:2px}"
+    },
+    {
+      "name": "Appearance Segment",
+      "kind": "chip",
+      "description": "Controle segmentado para temas e preferências de leitura.",
+      "html": "<div class=\"ds-segment\" role=\"group\" aria-label=\"Tema\"><button aria-pressed=\"true\">Escuro</button><button aria-pressed=\"false\">Claro</button><button aria-pressed=\"false\">Sépia</button><button aria-pressed=\"false\">Foco</button></div>",
+      "css": ".ds-segment{display:flex;gap:.25rem;padding:.2rem;border-radius:.5rem;background:#374151;font-family:Inter,ui-sans-serif,system-ui,sans-serif}.ds-segment button{flex:1 1 auto;min-height:2.1rem;padding:.35rem .5rem;border:0;border-radius:.375rem;background:transparent;color:#a8a8b3;font-size:.82rem;font-weight:600;cursor:pointer;transition:background-color 180ms cubic-bezier(.4,0,.2,1),color 180ms cubic-bezier(.4,0,.2,1)}.ds-segment button:hover{color:#e6e6e6}.ds-segment button[aria-pressed=true]{background:#111827;color:#e6e6e6;box-shadow:0 1px 2px hsl(220 40% 4%/.15)}.ds-segment button:focus-visible{outline:3px solid var(--wm-cyan,#38bdf8);outline-offset:2px}.ds-segment button:active{background:#1f2937}"
+    },
+    {
+      "name": "Learning Progress Meter",
+      "kind": "custom",
+      "description": "Progresso sóbrio que sempre combina fração, porcentagem e barra.",
+      "html": "<div class=\"ds-meter\" role=\"progressbar\" aria-valuenow=\"42\" aria-valuemin=\"0\" aria-valuemax=\"100\"><div class=\"ds-meter-label\"><span>Sua jornada</span><strong>40 de 96 · 42%</strong></div><div class=\"ds-meter-track\"><span></span></div></div>",
+      "css": ".ds-meter{max-width:32rem;color:#e6e6e6;font-family:Inter,ui-sans-serif,system-ui,sans-serif}.ds-meter-label{display:flex;justify-content:space-between;gap:1rem;margin-bottom:.5rem;color:#a8a8b3;font-size:.875rem}.ds-meter-label strong{color:#e6e6e6}.ds-meter-track{width:100%;height:.5rem;overflow:hidden;border-radius:9999px;background:#374151}.ds-meter-track span{display:block;width:42%;height:100%;border-radius:inherit;background:#34d399;transition:width 320ms cubic-bezier(.4,0,.2,1)}.ds-meter:focus-within{outline:3px solid var(--wm-cyan,#38bdf8);outline-offset:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "A Bancada de Evidências",
+    "overview": "O sistema visual trata a formação como uma bancada técnica em operação: superfícies escuras e sóbrias organizam evidências, linhas finas mostram relações e diagramas SVG explicam o mecanismo antes de qualquer promessa. A interface é direta, profissional e densa o bastante para transmitir rigor, sem se transformar em painel corporativo genérico.\n\nO mundo é o formato-curso-v2 da INEMA: dark-first, Inter, âmbar para decisões e ciano para fluxo, leitura e diagnóstico. A landing e o Readiness pertencem ao mesmo sistema, mas expressam modos diferentes — a primeira orienta a jornada; o segundo funciona como ferramenta operacional. A camada de aprendizagem atravessa ambos com progresso portátil, preferências de leitura, temas claro, sépia, foco e alto contraste, além do painel “Minha jornada”.",
+    "keyCharacteristics": [
+      "Dark-first com superfícies técnicas planas e bordas visíveis.",
+      "Âmbar raro e decisivo; ciano recorrente e operacional.",
+      "Diagramas SVG lineares como explicação funcional, nunca ilustração decorativa.",
+      "Hierarquia tipográfica compacta, pesada nos títulos e confortável na leitura.",
+      "Estados comunicados por texto, ícone e estrutura, não apenas por cor.",
+      "Aprendizagem sem gamificação manipulativa: progresso, dúvida, anotação e continuidade."
+    ],
+    "rules": [
+      { "name": "The Decision/Flow Rule", "body": "Âmbar responde “o que faço agora”; ciano responde “o que está acontecendo”. Não troque essas funções.", "section": "colors" },
+      { "name": "The Meaningful Color Rule", "body": "Cores de trilha, sucesso, atenção e falha só aparecem ligadas a uma categoria ou estado explícito.", "section": "colors" },
+      { "name": "The Theme Integrity Rule", "body": "Temas sépia e contraste recolorem o chrome inteiro por tokens semânticos; foco altera medida e densidade, não inventa outra paleta.", "section": "colors" },
+      { "name": "The One-Family Rule", "body": "Use peso, tamanho e espaçamento para hierarquia; não introduza uma fonte de display concorrente.", "section": "typography" },
+      { "name": "The Reading Measure Rule", "body": "Limite apenas a prosa; código, tabelas, grades e diagramas permanecem full-width dentro do contêiner.", "section": "typography" },
+      { "name": "The Mechanism-in-View Rule", "body": "Em superfícies de entrada, mantenha a ação e sua explicação visual ou estado operacional visíveis antes do primeiro scroll em desktop.", "section": "layout" },
+      { "name": "The Structural Depth Rule", "body": "Use tom e borda para conteúdo em repouso; use sombra apenas quando um elemento flutua sobre outro.", "section": "elevation" },
+      { "name": "The Radius by Scale Rule", "body": "Quanto maior o contêiner, maior o raio; não transforme todos os elementos em pílulas.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do reserve âmbar para a próxima decisão importante e ciano para fluxo, diagnóstico, links e foco.",
+      "Do construa profundidade com superfícies e bordas antes de recorrer a sombras.",
+      "Do use SVG técnico quando uma relação, sequência ou arquitetura precisa ser entendida rapidamente.",
+      "Do preserve o conteúdo e a operação sem JavaScript; recursos de aprendizagem são progressive enhancement.",
+      "Do comunique estados com texto, ícone e estrutura, e respeite teclado, zoom e movimento reduzido.",
+      "Do mantenha os temas claro, sépia, foco e contraste como expressões completas do mesmo sistema."
+    ],
+    "donts": [
+      "Don't transforme a formação em landing genérica de promessas, métricas decorativas ou gamificação manipulativa.",
+      "Don't use âmbar como acento indiscriminado nem ciano como CTA primário por hábito.",
+      "Don't aplique sombras pesadas a cartões em repouso, vidro excessivo ou gradientes decorativos no tema claro.",
+      "Don't introduza fotografia genérica, ilustração figurativa ou uma segunda fonte de display.",
+      "Don't use animação com bounce, scale ou translate em hover; movimento deve indicar varredura, entrada de resultado ou mudança de estado.",
+      "Don't esconder foco, depender apenas de cor ou limitar tabelas, código e diagramas à medida estreita da prosa."
+    ]
+  }
+}

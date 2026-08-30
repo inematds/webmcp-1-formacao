@@ -1,0 +1,19 @@
+{
+  "name": "webmcp-formacao-readiness",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Portal da Formação WebMCP e scanner passivo WebMCP Readiness.",
+  "scripts": {
+    "start": "node server/server.mjs",
+    "dev": "node --watch server/server.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "^1.55.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+

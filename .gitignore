@@ -1,0 +1,4 @@
+node_modules/
+.impeccable/screenshots/
+.impeccable/hook.cache.json
+*.log

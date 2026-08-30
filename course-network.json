@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "courseId": "webmcp-zero-expert",
+  "title": "Formação WebMCP — Sites e Agentes do Zero ao Expert",
+  "progression": "sequential-with-preview",
+  "phases": [
+    {
+      "id": "builder",
+      "order": 1,
+      "repository": "02-webmcp-builder",
+      "next": "integrator"
+    },
+    {
+      "id": "integrator",
+      "order": 2,
+      "repository": "03-webmcp-integrator",
+      "next": "agent-developer"
+    },
+    {
+      "id": "agent-developer",
+      "order": 3,
+      "repository": "04-webmcp-agent-developer",
+      "next": "expert"
+    },
+    {
+      "id": "expert",
+      "order": 4,
+      "repository": "05-webmcp-expert",
+      "next": "agent-hub"
+    }
+  ],
+  "destination": {
+    "id": "agent-hub",
+    "repository": "06-webmcp-agent-hub"
+  },
+  "state": {
+    "localNamespace": "inema.webmcp-zero-expert.*",
+    "fallback": "json-merge",
+    "crossOrigin": "signed-handoff"
+  }
+}
+
