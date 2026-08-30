@@ -3,8 +3,9 @@
 Repositório central da formação. Apresenta a visão completa das quatro fases, os
 pré-requisitos, a progressão pedagógica e os critérios de certificação.
 
-Este repositório também abriga o **WebMCP Readiness**, aplicativo que analisa um
-site e responde se ele está preparado para ser descoberto e operado por agentes.
+O diagnóstico inicial é realizado pelo **WebMCP Readiness**, aplicativo independente
+que analisa um site e responde se ele está preparado para ser descoberto e operado
+por agentes.
 
 ## As quatro fases
 
@@ -32,8 +33,9 @@ um relatório com:
 O resultado terá nota, evidências e recomendações, sem executar automaticamente
 ações mutáveis ou irreversíveis.
 
-Veja [docs/arquitetura-dos-repos.md](docs/arquitetura-dos-repos.md) e
-[apps/webmcp-readiness/README.md](apps/webmcp-readiness/README.md).
+Use o aplicativo em [webmcp.inema.pro](https://webmcp.inema.pro/) ou consulte o
+[repositório público](https://github.com/inematds/webmcp-readiness). Veja também
+[docs/arquitetura-dos-repos.md](docs/arquitetura-dos-repos.md).
 
 ## Progressão entre repositórios
 
@@ -43,37 +45,14 @@ aprendizagem INEMA. A arquitetura completa está em
 
 ## Executar o Repo 1
 
-Requisitos: Node.js 20+ e Chromium instalado.
-
-```bash
-npm install
-npm start
-```
-
-Abra `http://127.0.0.1:4173`.
-
-O scanner bloqueia redes privadas por padrão. Para analisar aplicações locais durante
-o desenvolvimento:
-
-```bash
-ALLOW_PRIVATE_TARGETS=1 npm start
-```
-
-Se o Chromium não estiver em `/snap/bin/chromium`, informe o executável:
-
-```bash
-CHROMIUM_PATH=/caminho/para/chromium npm start
-```
+O conteúdo é estático. Abra `index.html` ou publique a raiz com qualquer servidor
+HTTP. Para validar a estrutura, use `npm run check`.
 
 ## Entregas implementadas
 
 - landing responsiva da formação;
 - mapa das quatro fases e seis repositórios;
 - progresso, jornada e preferências de leitura INEMA v2;
-- formulário declarativo `analisar_prontidao_webmcp`;
-- scanner passivo com Playwright Core;
-- descoberta de ferramentas declarativas e imperativas;
-- classificação de compatibilidade, schemas, riscos, permissões e fallback;
-- relatório visual e exportação JSON;
-- bloqueio SSRF para redes privadas, inclusive em recursos e redirecionamentos;
+- integração com o WebMCP Readiness independente;
+- diagnóstico, relatório e exportação JSON em `webmcp.inema.pro`;
 - testes estruturais com `npm run check`.

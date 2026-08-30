@@ -1,6 +1,6 @@
 import { readFile } from "node:fs/promises";
 
-const files = ["index.html", "apps/webmcp-readiness/index.html"];
+const files = ["index.html"];
 let failed = false;
 
 for (const file of files) {
@@ -13,7 +13,8 @@ for (const file of files) {
     journey: html.includes("data-inema-journey-open"),
     appearance: html.includes("data-inema-appearance-toggle"),
     svg: html.includes('role="img"') && html.includes('class="w-full h-auto"'),
-    init: html.includes("INEMA.init")
+    init: html.includes("INEMA.init"),
+    readiness: html.includes("https://webmcp.inema.pro/")
   };
   const missing = Object.entries(checks).filter(([, ok]) => !ok).map(([name]) => name);
   if (missing.length) {
@@ -25,4 +26,3 @@ for (const file of files) {
 }
 
 if (failed) process.exit(1);
-
