@@ -1,5 +1,5 @@
 {
-  "name": "webmcp-formacao-readiness",
+  "name": "webmcp-1-formacao-readiness",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -16,4 +16,3 @@
     "node": ">=20"
   }
 }
-

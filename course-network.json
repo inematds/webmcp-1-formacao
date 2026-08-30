@@ -7,31 +7,31 @@
     {
       "id": "builder",
       "order": 1,
-      "repository": "02-webmcp-builder",
+      "repository": "webmcp-2-builder",
       "next": "integrator"
     },
     {
       "id": "integrator",
       "order": 2,
-      "repository": "03-webmcp-integrator",
+      "repository": "webmcp-3-integrator",
       "next": "agent-developer"
     },
     {
       "id": "agent-developer",
       "order": 3,
-      "repository": "04-webmcp-agent-developer",
+      "repository": "webmcp-4-agent-developer",
       "next": "expert"
     },
     {
       "id": "expert",
       "order": 4,
-      "repository": "05-webmcp-expert",
+      "repository": "webmcp-5-expert",
       "next": "agent-hub"
     }
   ],
   "destination": {
     "id": "agent-hub",
-    "repository": "06-webmcp-agent-hub"
+    "repository": "webmcp-6-agent-hub"
   },
   "state": {
     "localNamespace": "inema.webmcp-zero-expert.*",
@@ -39,4 +39,3 @@
     "crossOrigin": "signed-handoff"
   }
 }
-
