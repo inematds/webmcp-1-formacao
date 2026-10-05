@@ -56,3 +56,11 @@ HTTP. Para validar a estrutura, use `npm run check`.
 - integração com o WebMCP Readiness independente;
 - diagnóstico, relatório e exportação JSON em `webmcp.inema.pro`;
 - testes estruturais com `npm run check`.
+
+<!-- inema-backlink:v1 -->
+## Mais no INEMA.CLUB
+
+- [Ficha completa deste curso](https://www.inema.club/cursos/246-formacao-webmcp-sites-e-agentes-do-zero-ao-expert/)
+- [Guia: como aprender inteligência artificial](https://www.inema.club/aprender-inteligencia-artificial/)
+- [Todos os cursos](https://www.inema.club/cursos/)
+<!-- /inema-backlink:v1 -->
